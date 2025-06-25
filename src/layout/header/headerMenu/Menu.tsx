@@ -24,7 +24,7 @@ const Menu: FC<MenuProps> = ({ callback }) => {
   useEffect(() => {
     const observerOptions = {
       root: null,
-      rootMargin: `-50% 0px`,
+      rootMargin: "-50% 0px",
       threshold: 0,
     };
 

@@ -23,33 +23,32 @@ const WorksData: WorkDataType[] = [
     title: "WA Clone",
     photo: GreenApiPhoto,
     links: {
-      website:
-        "https://rustemmomynov.github.io/green-api-app/",
-      code: "https://github.com/RustemMomynov/green-api-app",
+      website: "https://rustemmt.github.io/green-api-app/",
+      code: "https://github.com/RustemMT/green-api-app",
     },
   },
   {
     title: "MNTN",
     photo: MNTNPhoto,
     links: {
-      website: "https://rustemmomynov.github.io/MNTN__Layout/",
-      code: "https://github.com/RustemMomynov/MNTN__Layout",
+      website: "http://rustemmt.github.io/MNTN__Layout/",
+      code: "https://github.com/RustemMT/MNTN__Layout",
     },
   },
   {
     title: "To-Do-List",
     photo: TodolistPhoto,
     links: {
-      website: "https://rustemmomynov.github.io/to-do-list/",
-      code: "https://github.com/RustemMomynov/to-do-list",
+      website: "https://rustemmt.github.io/to-do-list/",
+      code: "https://github.com/RustemMT/to-do-list",
     },
   },
   {
     title: "MoGo",
     photo: MogoPhoto,
     links: {
-      website: "https://rustemmomynov.github.io/HTML-CSS---Mogo/",
-      code: "https://github.com/RustemMomynov/HTML-CSS---Mogo",
+      website: "https://rustemmt.github.io/HTML-CSS---Mogo/",
+      code: "https://github.com/RustemMT/HTML-CSS---Mogo",
     },
   },
 ];
@@ -65,11 +64,8 @@ const Works = () => {
     <S.Works id={"works"}>
       <StyledContainer>
         <SectionTitle>Works</SectionTitle>
-        <FlexWrapper
-         justify="space-between"
-         wrap="wrap"
-         gap="40px">
-         {works}
+        <FlexWrapper justify="space-between" wrap="wrap" gap="40px">
+          {works}
         </FlexWrapper>
       </StyledContainer>
     </S.Works>
