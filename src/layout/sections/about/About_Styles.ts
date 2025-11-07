@@ -40,6 +40,10 @@ const PersonalInfo = styled.div`
 const Description = styled.p`
   font-size: 20px;
   line-height: 1.5;
+
+  p + p {
+    margin: 10px 0;
+  }
 `;
 
 const Skills = styled.ul`
